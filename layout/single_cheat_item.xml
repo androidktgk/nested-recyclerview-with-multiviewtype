@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="118dp"
+    android:layout_height="148dp"
+    android:layout_marginStart="20dp"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="8dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imgCheatThumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/thumbnail" />
+        <TextView
+            android:id="@+id/txtCheatTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/python_full_course"
+            android:textAlignment="center"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

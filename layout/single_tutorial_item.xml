@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/layoutTutorialThumbHolder"
+        android:layout_width="match_parent"
+        android:layout_height="198dp"
+        android:background="@color/white">
+        <ImageView
+            android:id="@+id/imgTutorialThumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/thumbnail" />
+        <TextView
+            android:id="@+id/txtTutorialDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_2_30"
+            android:textColor="@color/white"
+            android:background="@color/duration_bg_color"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="4dp"
+            android:paddingBottom="4dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="16dp"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/txtTutorialTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/preplyft"
+        android:textColor="@color/white"
+        android:layout_marginStart="20dp"
+        android:textSize="16sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/layoutTutorialThumbHolder"/>
+    <TextView
+        android:id="@+id/txtTutorialDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/preplyft"
+        android:textColor="@color/details_color"
+        android:layout_marginStart="20dp"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/txtTutorialTitle"/>
+
+</RelativeLayout>
